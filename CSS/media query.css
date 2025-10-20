@@ -1,0 +1,15 @@
+.div1{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+}
+@media(max-width:300px){
+    .div1{
+        background-color: black;
+    }
+}
+@media(min-width:600px) and (max-width:800px){
+.div1{
+    background-color: blue;
+  }
+}

@@ -1,0 +1,37 @@
+.div1{
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    background: linear-gradient(red ,yellow 150px);
+}
+.div2{
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    background: linear-gradient(to right,green ,yellowgreen);
+}
+.div3{
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    background: linear-gradient(45deg,blue,silver);
+}
+.div4{
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+  background: linear-gradient(to right, red, orange, yellow, green, blue);
+}
+.div5{
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    background: radial-gradient(circle, red, yellow, green);
+}
+
+.div6{
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    background: radial-gradient(ellipse at top left, #ff0000, #0000ff);
+}

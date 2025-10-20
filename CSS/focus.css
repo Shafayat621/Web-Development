@@ -1,0 +1,11 @@
+button{
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: burlywood;
+}
+
+button:focus{
+    background-color: blueviolet;
+
+}

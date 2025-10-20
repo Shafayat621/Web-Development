@@ -1,0 +1,11 @@
+.div1{
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+}
+.div1:hover{
+    background-color: brown;
+    color: chocolate;
+    font-size: 50px;
+}
+

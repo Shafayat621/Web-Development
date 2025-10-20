@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: repeat(4,300px);/* using this we can difine how many column we need and each column width */
+    grid-auto-rows: 300px;
+    grid-auto-flow: row;/*this will deside in which dericton the content will be shown*/
+    /* grid-template-rows: repeat(3,300px);we dont use this very often */
+    /* column-gap: 50px;
+    row-gap: 50px; */
+    gap: 50px;/*using this we can use gap in both direction */
+    justify-items: center; /* justify items workes on horizontal alignment of the content in a box */
+    align-items: center;/* align items workes on vartical alignment of the content in a box */
+
+    justify-content: center; /*justify content workes on the box horizontal alignment */
+    align-content: center;/*align content workes on the box vartical alignment */
+}
+
+.item{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    /* grid-column: 1 / 2; */
+}
